@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Adiciona Contato</string>
+    <string name="salvar_em">Salvar_em</string>
+    <string name="usuario_gmail_com">Usuario@gmail.com</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="celular">Celular</string>
+    <string name="email">Email</string>
+    <string name="residencial">Residencial</string>
+    <string name="mais_campos">Mais Campos</string>
+</resources>

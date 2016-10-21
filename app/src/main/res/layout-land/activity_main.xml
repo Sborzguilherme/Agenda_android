@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp">
+
+                <ImageView
+                    android:layout_width="414dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/perfil_land"
+                    android:background="#000000"
+
+
+                    android:adjustViewBounds="false"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/navegacao_anonima"
+                    android:layout_marginRight="@dimen/margem_direita_img_land"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+
+                    android:layout_width="@dimen/icone_lateral"
+                    android:layout_height="@dimen/icone_lateral"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginLeft="@dimen/land_margem_esq"
+                    android:src="@drawable/perfil_2"
+
+                    android:layout_marginRight="@dimen/margem_direita_img_land"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+
+                    android:layout_width="@dimen/icone_lateral"
+                    android:layout_height="@dimen/icone_lateral"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="@dimen/land_margem_esq"
+                    android:src="@drawable/telefone"
+                    android:layout_marginRight="@dimen/margem_direita_img_land"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+
+                    android:layout_width="@dimen/icone_lateral"
+                    android:layout_height="@dimen/icone_lateral"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginLeft="@dimen/land_margem_esq"
+                    android:src="@drawable/carta"
+                    android:layout_marginRight="@dimen/margem_direita_img_land"
+                    android:scaleType="fitCenter" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView android:text="Salvar em" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Fonte_Hint"
+                    android:layout_marginBottom="@dimen/margem_inferior"
+                    android:layout_marginTop="15dp"/>
+
+                <EditText android:hint="usuario@gmail.com" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Fonte_Hint"
+                    android:inputType="textEmailSubject"
+                    android:layout_marginBottom="10dp"/>
+
+                <EditText
+                    android:layout_marginTop="10dp"
+                    android:hint="Nome"
+                    style="@style/Fonte_Hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="35dp"/>
+
+                <EditText  android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Telefone"
+                    style="@style/Fonte_Hint"
+                    android:layout_marginBottom="@dimen/margem_entre_editText_land"/>/
+                <EditText
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Celular"
+                    style="@style/Fonte_Hint"
+                    android:layout_marginBottom="@dimen/margem_entre_editText_land"/>
+                />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    style="@style/Fonte_Hint"
+                    android:layout_marginBottom="@dimen/margem_entre_editText_land"/>
+                />
+                <EditText
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Residencial"
+                    style="@style/Fonte_Hint"
+                    android:layout_marginBottom="@dimen/margem_entre_editText_land"/>
+
+                />
+                <Button android:text="Mais Campos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    style="@style/TemaBotao"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
