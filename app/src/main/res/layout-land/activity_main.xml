@@ -23,7 +23,6 @@
                 android:layout_marginRight="15dp">
 
                 <ImageView
-                    android:layout_width="414dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/perfil_land"
                     android:background="#000000"
@@ -32,7 +31,8 @@
                     android:adjustViewBounds="false"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
-                    android:scaleType="fitXY" />
+                    android:scaleType="fitXY"
+                    android:layout_width="300dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -53,7 +53,7 @@
 
                     android:layout_width="@dimen/icone_lateral"
                     android:layout_height="@dimen/icone_lateral"
-                    android:layout_marginTop="55dp"
+                    android:layout_marginTop="25dp"
                     android:layout_marginLeft="@dimen/land_margem_esq"
                     android:src="@drawable/perfil_2"
 
@@ -64,7 +64,7 @@
 
                     android:layout_width="@dimen/icone_lateral"
                     android:layout_height="@dimen/icone_lateral"
-                    android:layout_marginTop="70dp"
+                    android:layout_marginTop="40dp"
                     android:layout_marginLeft="@dimen/land_margem_esq"
                     android:src="@drawable/telefone"
                     android:layout_marginRight="@dimen/margem_direita_img_land"
@@ -74,7 +74,7 @@
 
                     android:layout_width="@dimen/icone_lateral"
                     android:layout_height="@dimen/icone_lateral"
-                    android:layout_marginTop="125dp"
+                    android:layout_marginTop="95dp"
                     android:layout_marginLeft="@dimen/land_margem_esq"
                     android:src="@drawable/carta"
                     android:layout_marginRight="@dimen/margem_direita_img_land"
@@ -89,6 +89,7 @@
 
                 <TextView android:text="Salvar em" android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:inputType="textEmailSubject"
                     style="@style/Fonte_Hint"
                     android:layout_marginBottom="@dimen/margem_inferior"
                     android:layout_marginTop="15dp"/>
@@ -96,7 +97,7 @@
                 <EditText android:hint="usuario@gmail.com" android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/Fonte_Hint"
-                    android:inputType="textEmailSubject"
+                    android:inputType="textEmailAddress"
                     android:layout_marginBottom="10dp"/>
 
                 <EditText

@@ -15,7 +15,7 @@
     </style>
 
     <style name="Fonte_Hint">
-        <item name ="android:textSize">30dp</item>
+        <item name ="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
     </style>
 

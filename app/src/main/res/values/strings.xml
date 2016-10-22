@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Adiciona Contato</string>
-    <string name="salvar_em">Salvar_em</string>
+    <string name="salvar_em">Salvar em</string>
     <string name="usuario_gmail_com">Usuario@gmail.com</string>
     <string name="nome">Nome</string>
     <string name="telefone">Telefone</string>
