@@ -61,7 +61,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/margem_inferior"/>
 
-
                 </LinearLayout>
 
 
@@ -101,7 +100,7 @@
                     android:layout_width="@dimen/icone_lateral"
                     android:layout_height="@dimen/icone_lateral"
                     android:layout_marginTop="35dp"
-                    android:src="@drawable/telefone"
+                    android:src="@drawable/telefone_2"
                     android:layout_marginRight="@dimen/margem_direita_Orient_vert"
                     android:scaleType="fitCenter" />
 
