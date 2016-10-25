@@ -61,6 +61,14 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="@dimen/margem_inferior"/>
 
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:id="@+id/spinner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        />
+
+
+
                 </LinearLayout>
 
 
@@ -83,6 +91,7 @@
 
                 <EditText
                     android:hint="@string/nome"
+                    android:id="@+id/etNome"
                     style="@style/Fonte_Hint"
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
@@ -170,6 +179,7 @@
                 style="@style/TemaBotao"
                 android:textAlignment="center"
                 android:paddingLeft="40dp"
+                android:onClick="clicouNoBotao"
                 />
 
         </LinearLayout>
