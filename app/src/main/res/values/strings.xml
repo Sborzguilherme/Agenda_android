@@ -8,4 +8,9 @@
     <string name="email">Email</string>
     <string name="residencial">Residencial</string>
     <string name="mais_campos">Mais Campos</string>
+
+    <string-array name="Usuarios_email">
+        <item>usuario1@gmail.com</item>
+        <item>usuario2@gmail.com</item>
+    </string-array>
 </resources>
